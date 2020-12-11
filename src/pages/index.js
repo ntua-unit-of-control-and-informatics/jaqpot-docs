@@ -20,16 +20,16 @@ const features = [
       </>
     ),
   },
-  {
-    title: 'Sharing',
-    imageUrl: 'img/share.jpg',
-    description: (
-      <>
-        Model sharing has never been easier. 
-        Create your teams and organizations and share your models.
-      </>
-    ),
-  },
+  // {
+  //   title: 'Sharing',
+  //   imageUrl: 'img/share.jpg',
+  //   description: (
+  //     <>
+  //       Model sharing has never been easier. 
+  //       Create your teams and organizations and share your models.
+  //     </>
+  //   ),
+  // },
   // {
   //   title: 'Explain',
   //   imageUrl: 'img/explain.png',
@@ -45,7 +45,8 @@ const features = [
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--6', styles.feature)}>
+    // <div className={clsx('col col--6', styles.feature)}>
+    <div className={clsx( styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />

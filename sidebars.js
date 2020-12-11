@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    Jaqpot: ['doc1', 'jaqpot', 'sklearn'],
+    Clients:['.NET', 'JAVA', 'python', 'go']
   },
 };
