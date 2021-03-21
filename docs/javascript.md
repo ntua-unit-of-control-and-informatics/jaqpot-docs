@@ -1,7 +1,7 @@
 ---
 id: javascript 
 title: Javascript Client
-sidebar_label: Javascript Client
+sidebar_label: Javascript
 ---
 
 The Javascript Jaqpot client has been developed in order to pull and use both models and datasets, stored in the Jaqpot API with ease. 

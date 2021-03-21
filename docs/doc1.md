@@ -1,10 +1,19 @@
 ---
 id: doc1
-title: Style Guide
-sidebar_label: Style Guide
+title: Welcome to Jaqpot
+sidebar_label: welcome 
 slug: /
+keywords:
+  - jaqpot
+  - deploy machine learning models
+  - API
+  - models
+  - deploy sklearn
 ---
 
+
+
+<!-- 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
 ## Markdown Syntax
@@ -200,4 +209,4 @@ This is a caution
 
 This is a warning
 
-:::
+::: -->

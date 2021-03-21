@@ -1,7 +1,7 @@
 ---
 id: python 
 title: Python client
-sidebar_label: javascript
+sidebar_label: Python
 ---
 
 Use jaqpot API from javascript

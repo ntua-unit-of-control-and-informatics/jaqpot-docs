@@ -1,7 +1,7 @@
 ---
 id: go 
-title: go client
-sidebar_label: go client
+title: Go client
+sidebar_label: Go
 ---
 
 Use jaqpot API from .NET app

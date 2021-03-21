@@ -1,8 +1,8 @@
 ---
 id: JAVA 
 title: JAVA client
-sidebar_label: JAVA client
+sidebar_label: JAVA
 ---
 
-Use jaqpot API from .NET app
+Use jaqpot API from JAVA 
 

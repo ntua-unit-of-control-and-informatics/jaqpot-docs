@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Jaqpot',
   tagline: 'train. Deploy. Share.',
-  url: 'https://jaqpot.org',
+  url: 'https://www.jaqpot.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -22,12 +22,36 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/euclia',
-          label: 'GitHub',
-          position: 'right',
+          to: 'docs/sklearn',
+          activeBasePath: 'docs/sklearn',
+          label: 'Deploy',
+          position: 'left',
         },
+        {
+          to: 'docs/usecases',
+          activeBasePath: 'docs/usecases',
+          label: 'Use Cases',
+          position: 'left',
+        },
+        {
+          to: 'docs/projects',
+          activeBasePath: 'docs/projects',
+          label: 'Projects using Jaqpot',
+          position: 'left',
+        },
+        {
+          to: 'docs/',
+          activeBasePath: 'faq',
+          label: 'FAQ',
+          position: 'left',
+        },
+        {to: 'blog', label: 'Blog', position: 'right'},
+        // {
+        //   href: 'https://github.com/euclia',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
@@ -37,29 +61,34 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Jaqpot',
+              to: 'docs/jaqpot',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Clients',
+              to: 'docs/sklearn',
             },
+            {
+              label: 'SDK',
+              to: 'docs/.NET',
+            },
+
           ],
         },
         {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Github',
+              href: 'https://github.com/euclia',
             },
+            // {
+            //   label: 'Discord',
+            //   href: 'https://discordapp.com/invite/docusaurus',
+            // },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Gitter',
+              href: 'https://gitter.im/euclia-xyz/jaqpot',
             },
           ],
         },
@@ -74,11 +103,40 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/euclia1',
+            },
           ],
         },
+        {
+          title: 'Legal',
+          items:[
+            {
+              //Renders the html pass-through instead of a simple link
+              html: `
+                  <div style="font-size: x-small">
+                    <img style="width: 52%" src="/img/eu.jpg" alt="Deploys by Netlify" />
+                    <p>This project has received funding from European Union Horizon 2020 Programme</p>
+                  </div>
+
+                  <div style="font-size: x-small">
+                    <a href="https://www.ntua.gr" target="_blank" rel="noreferrer noopener">
+                      <img style="width: 22%" src="/img/ntua.jpg" />
+                    </a>
+                    <p>Developed at NTUA</p>
+                  </div>
+
+                  <div style="font-size: x-small">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+                `,
+            },
+          ]
+        }
       ],
-      // copyright: `Copyright © ${new Date().getFullYear()} Euclia, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Euclia, Inc.`,
     },
+    
   },
   presets: [
     [
