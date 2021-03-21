@@ -29,11 +29,11 @@ const jaqpotClient:IJaqpotClient = new JaqpotClientFactory("https://api.jaqpot.o
 const token:string = "myAuthToken"   
 ```
 
-## Models
+## Predictions
 
 Import the appropriate structures.
 ```javascript
-import { Prediction, Model, Models } from '../src/models/jaqpot.models'
+import { Prediction } from '../src/models/jaqpot.models'
 ```
 
 ### Predict Method
@@ -70,6 +70,12 @@ jaqpotClient.predict(modelId, input_data, token).then(
 
     })
 ```
+## Models
+
+Import the appropriate structures.
+```javascript
+import { Model, Models } from '../src/models/jaqpot.models'
+```
 
 ### getModelById Method
 
@@ -98,7 +104,7 @@ Find more on selecting the appropriate IDs [here](https://link-to-ids.gr).
 
 ```javascript
 // Set the upper and lower bounds of your search.
-let upper = 0
+let lower = 0
 let upper = 10
 
 // Get your first 10 models.
@@ -122,7 +128,7 @@ Find more on selecting the appropriate IDs [here](https://link-to-ids.gr).
 let orgId = 'MyOrgId'
 
 // Set the upper and lower bounds of your search.
-let upper = 0
+let lower = 0
 let upper = 10
 
 // Get the first 10 models of the organization with ID myOrgId.
