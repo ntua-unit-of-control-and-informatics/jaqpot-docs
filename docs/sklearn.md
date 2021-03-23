@@ -123,7 +123,7 @@ Warning! One of the things that may differ from simpler training and validation 
 
 :::
 
-````
+```python
 from jaqpotpy import Jaqpot
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -138,7 +138,7 @@ X = df[['LFG', 'EQP', 'NEQ', 'GAP']]
 model = lm.fit(X=X, y=y)
 
 jaqpot.deploy_sklearn(model, X, y, title="Title", description="Describe")
-````
+```
 
 The function will inform you about the model id that is created and is available through the user interface and the API.
 
@@ -163,7 +163,7 @@ Domain of applicability contains knowledge or information on which the training 
 
 
 
-````
+```python
 from jaqpotpy import Jaqpot
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -179,7 +179,7 @@ model = lm.fit(X=X, y=y)
 
 jaqpot.deploy_sklearn(model, X, y, title="Title", description="Describe", doa=X)
 
-````
+```
 
 
 
@@ -202,7 +202,7 @@ It can be used as a standard scaler or a text tokenization or whatever the sklea
 
 
 
-````
+```python
 from jaqpotpy import Jaqpot
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -224,7 +224,7 @@ pipeline.predict(X)
 
 jaqpot.deploy_sklearn(pipeline, X, y, title="Pipeline", description="A pipeline deployment")
 
-````
+```
 
 
 :::info Result

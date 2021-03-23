@@ -1,7 +1,17 @@
 ---
 id: spam
 title: Spam Detector (Spam vs Ham)
-sidebar_label: Text processing
+sidebar_label: Spam Detector (Spam vs Ham)
+keywords:
+  - jaqpot
+  - deploy machine learning models
+  - API
+  - models
+  - integrate models
+  - deploy sklearn models and pipelines
+  - deploy sklearn models
+  - text classification
+  - spam detector
 ---
 
 
@@ -94,7 +104,7 @@ from jaqpotpy import Jaqpot
 jaqpot = Jaqpot()
 ```
 
-Then we [set our credentials](http://localhost:3000/docs/python#set-your-credientials) and we used the deploy_sklearn method:
+Then we [set our credentials](http://localhost:3000/docs/python#set-your-credientials) and we used the ````deploy_sklearn```` method:
 ```python
 jaqpot.deploy_sklearn(pipeline, X_train, y_train, 'Spam Detector', 'This pipeline gets a message and predicts whether it is a spam message or not.')
 ```
