@@ -65,7 +65,7 @@ You can contact with the Jaqpot team at contact@euclia.xyz
 ### Make them transparent to the users with flexible documentation methods
 
 > #### Through the user inteface you can:
-> - Create predictions by manual input of values
+> - Develop
 >  
 > - Create predictions using CSV datasets using Jaqpot-generated template
 >
@@ -75,9 +75,38 @@ You can contact with the Jaqpot team at contact@euclia.xyz
 
 ### Share your models and make them accessible to selected users, collaborators, or groups
 
+> #### Share with whoever you want:
+> - Every user has a personal space and a shared space. 
+>  
+> - Deploy your models in the personal space and add documentation.
+>
+> - Share the models with other users or groups having different privileges (Read/Write/Execute).  
+
+
 ### Integrate them with your applications within seconds
 
+
+> #### Lean, well-documented clients (SDKs) are available for the established programming languages.:
+> - Nuget Package (.NET): https://www.nuget.org/packages/JaqpotNet
+>  
+> - Java: https://search.maven.org/artifact/xyz.euclia/jaqpotj/0.0.1/jar 
+>
+> - Python Package: https://pypi.org/project/jaqpotpy/  
+>
+> - Go Package: https://github.com/euclia/gojaqpot 
+>
+> - Javascript Package: https://www.npmjs.com/package/@euclia/jaqpot-client  
+
+
 ### Meet the scalability requirements of your organization
+
+
+> #### Integrate with Jaqpot and create millions of predictions.
+> Near real time predictions
+>
+> Model to prediction in minutes
+>
+> Low cost of maintenance and development
 
 
 <!-- 
