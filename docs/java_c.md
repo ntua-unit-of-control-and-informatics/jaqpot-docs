@@ -37,7 +37,7 @@ client = new JaqpotFactory().create("https://api.jaqpot.org/jaqpot",
 ```
 
 
-## Create predictions fom your models
+## Create predictions for your models
 
 
 The bellow code is an example about how the predict function could be used. Input data should apply to a models features. 
