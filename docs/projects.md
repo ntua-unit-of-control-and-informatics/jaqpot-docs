@@ -29,4 +29,4 @@ http://enaloscloud.novamechanics.com/nanocommons/exposure/
 
 A platform for exposure simulations running at NanoSolveit.
 
-#### NanoFase application integrates with Jaqpot to create predictions for the bioptake of Engineered nanomaterials 
+#### NanoFase application integrates with Jaqpot to create predictions for the bioptake of Engineered nanomaterials
