@@ -24,7 +24,7 @@ const main_f =[
         <br></br>
         Accelerate your transformation with smart applications and guided decision making
         <br></br>
-        Make your models <b>transparent</b> and easily accesible from a user interface that anyone can use
+        Make your models <b>transparent</b> and easily accessible from a user interface that anyone can use
        </>
     ),
   }

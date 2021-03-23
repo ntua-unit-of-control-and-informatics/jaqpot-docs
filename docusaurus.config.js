@@ -3,8 +3,8 @@ module.exports = {
   tagline: 'train. Deploy. Share.',
   url: 'https://www.jaqpot.org',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/jaqpot.svg',
   organizationName: 'euclia', // Usually your GitHub org/user name.
   projectName: 'euclia-docs', // Usually your repo name.
@@ -29,7 +29,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/usecases',
+          to: 'docs/spam',
           activeBasePath: 'docs/usecases',
           label: 'Use Cases',
           position: 'left',
@@ -62,7 +62,9 @@ module.exports = {
           items: [
             {
               label: 'Jaqpot',
-              to: 'docs/jaqpot',
+              to: 'docs/',
+              activeBasePath: 'docs',
+              label: 'Docs',
             },
             {
               label: 'Clients',
@@ -124,8 +126,15 @@ module.exports = {
                     <a href="https://www.ntua.gr" target="_blank" rel="noreferrer noopener">
                       <img style="width: 22%" src="/img/ntua.jpg" />
                     </a>
-                    <p>Developed at NTUA</p>
+
+                    <p>Developed at NTUA by 
+                      <a href="https://www.chemeng.ntua.gr/labs/control_lab/" target="_blank" rel="noreferrer noopener">UPCI</a>
+                    </p>
+
                   </div>
+
+
+
 
                   <div style="font-size: x-small">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 

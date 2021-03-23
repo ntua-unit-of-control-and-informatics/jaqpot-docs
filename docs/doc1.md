@@ -12,6 +12,47 @@ keywords:
 ---
 
 
+![Jaqpot](./assets/jaqpot-land.png)
+
+
+## Visit the application
+
+[app.jaqpot.org](https://app.jaqpot.org)
+
+
+# Jaqpot
+
+
+**Rapid deployment**, efficient **sharing** within your organization
+
+Deploy your models using jaqpot and **integrate** them with your applications
+
+
+Respect **data privacy** by excanching only the result of your experiments
+
+
+Accelerate your transformation with **smart applications** and guided decision making
+
+
+Make your **models transparent and easily accessible** from a user interface that anyone can use
+
+
+
+### Develop models on any runtime and deploy them as web services in seconds
+
+Jaqpot can host anu model developed by any runtime. Right now [sklearn](/docs/sklearn) and [R](/docs/r) is integrated
+
+
+### Validate your models and generate predictions with a user friendly interface
+
+### Make them transparent to the users with flexible documentation methods
+
+### Share your models and make them accessible to selected users or collaborators
+
+### Integrate them with your applications within seconds
+
+### Meet the scalability requirements of your organization
+
 
 <!-- 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

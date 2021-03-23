@@ -4,12 +4,14 @@ title: Python Client
 sidebar_label: Python
 ---
 
+## Integrate with Jaqpot API through Python applications
 
 The Python Jaqpot client has been developed in order to post, pull and use both models and datasets, stored in the Jaqpot API with ease. 
 
 ## Installation
 
-Install the python client through your terminal with npm:
+Install the python client through pypi:
+
 ```python
 pip install jaqpotpy 
 ```

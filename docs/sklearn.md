@@ -109,7 +109,7 @@ Task:
 Model the GDP. Pay attention to the diagnostics and suitability of your final model.
 
 
-<a target="_blank" href="./assets/gdp-countries.csv" download="gdp.csv">Download sample dataset</a>
+<a target="_blank" href="/docs/assets/gdp-countries.csv" download="gdp.csv">Download sample dataset</a>
 
 ### Model training and deployment
 
@@ -233,3 +233,77 @@ jaqpot.deploy_sklearn(pipeline, X, y, title="Pipeline", description="A pipeline 
 
 :::
 
+
+
+### Train and deploy a model with train meta data
+
+If you wish to upload meta data add the desired True flag as input to the function.
+
+
+````
+from jaqpotpy import Jaqpot
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
+
+
+df = pd.read_csv('/path/to/gdp.csv')
+lm = LinearRegression()
+
+y = df['GDP']
+X = df[['LFG', 'EQP', 'NEQ', 'GAP']]
+
+pipe = Pipeline([('scaler', StandardScaler()), ('linear', LinearRegression())])
+
+pipeline = pipe.fit(X=X, y=y)
+
+pipeline.predict(X)
+
+jaqpot.deploy_sklearn(pipeline, X, y, title="Pipeline", description="A pipeline deployment", model_meta=True)
+
+````
+
+
+:::info Result
+
+- INFO - Model with id: <model_id> created. Visit the application to proceed
+
+:::
+
+
+
+## Example
+
+
+````
+from jaqpotpy import Jaqpot
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+
+jaqpot = Jaqpot()
+jaqpot.request_key_safe()
+
+df = pd.read_csv('/path/to/gdp.csv')
+lm = LinearRegression()
+
+y = df['GDP']
+X = df[['LFG', 'EQP', 'NEQ', 'GAP']]
+
+model = lm.fit(X=X, y=y)
+
+jaqpot.deploy_sklearn(model, X, y, title="Title", description="Describe", doa=X)
+
+````
+
+
+
+:::info Result
+
+
+- INFO - Model with id: <model_id> created. Storing Domain of applicability
+- INFO - Stored Domain of applicability. Visit the application to proceed
+
+:::
+
+**Your model is then available at https://app.jaqpot.org**

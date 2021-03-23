@@ -1,7 +1,7 @@
 ---
 id: spam
 title: Spam Detector (Spam vs Ham)
-sidebar_label: Spam Detector (Spam vs Ham)
+sidebar_label: Text processing
 ---
 
 

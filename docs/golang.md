@@ -6,12 +6,19 @@ sidebar_label: Go
 
 The Go Jaqpot client has been developed in order to pull and use both models and datasets, stored in the Jaqpot API with ease. 
 
+
+Install the go client through your terminal:
+```javascript
+go get github.com/euclia/gojaqpot
+```
+
+
 ## Usage
 
 Import the Go client package from GitHub:
 ```go
 import (
-    github.com/goJaqpot
+    github.com/gojaqpot
 )
 ```
 
