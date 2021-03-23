@@ -40,14 +40,40 @@ Make your **models transparent and easily accessible** from a user interface tha
 
 ### Develop models on any runtime and deploy them as web services in seconds
 
-Jaqpot can host anu model developed by any runtime. Right now [sklearn](/docs/sklearn) and [R](/docs/r) is integrated
+Jaqpot can host any model developed by various runtimes. Right now [sklearn](/docs/sklearn), [XGBoost](/docs/xgboost) and [R](/docs/r) is integrated. 
+More runtimes will be integrated in the near future, and can be integrated upon request. 
+
+You can contact with the Jaqpot team at contact@euclia.xyz
 
 
 ### Validate your models and generate predictions with a user friendly interface
 
+![Jaqpot](./assets/jui.png)
+
+
+#### Every model deployed on Jaqpot can be used through a user interface.
+
+
+> #### Through the user inteface you can:
+> - Create predictions by manual input of values
+>  
+> - Create predictions using CSV datasets using Jaqpot-generated template
+>
+> - Validate model performance: using an external validation dataset as input in CSV format
+
+
 ### Make them transparent to the users with flexible documentation methods
 
-### Share your models and make them accessible to selected users or collaborators
+> #### Through the user inteface you can:
+> - Create predictions by manual input of values
+>  
+> - Create predictions using CSV datasets using Jaqpot-generated template
+>
+> - Validate model performance: using an external validation dataset as input in CSV format
+
+
+
+### Share your models and make them accessible to selected users, collaborators, or groups
 
 ### Integrate them with your applications within seconds
 
