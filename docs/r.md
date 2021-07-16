@@ -57,6 +57,11 @@ Once you log in, the only outstanding step is to provide a title and a short des
 **Your model is then available at https://app.jaqpot.org**
 
 
+:::warning
+For some R models, your data might be uploaded in an encrypted form on Jaqpot. We are currently working on resolving this, so that all data remain on the local system and only the necessary model parameters and metadata arre uploaded on Jaqpot.
+:::
+
+
 ### Supported R packages
 
 At the moment Jaqpot can host models developed is specific R libraries. The available jaqpotr functions are:
@@ -71,6 +76,7 @@ At the moment Jaqpot can host models developed is specific R libraries. The avai
   * `"xgbTree"`
   * `"neuralnet"`
   * `"rf"`
+   * `"knn"`
 
 If you want to deploy a model that has been developed in a library that is not part of the list, all you need to do is contact us and we will develop the appropriate function as soon as possible!
 
