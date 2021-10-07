@@ -1,7 +1,7 @@
 ---
 id: doc1
 title: Welcome to Jaqpot
-sidebar_label: welcome 
+sidebar_label: Welcome to Jaqpot 
 slug: /
 keywords:
   - jaqpot

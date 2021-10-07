@@ -1,6 +1,6 @@
 ---
 id: projects
-title: .Projects using Jaqpot
+title: Projects using Jaqpot
 sidebar_label: Projects using Jaqpot
 ---
 

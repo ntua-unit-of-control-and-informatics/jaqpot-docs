@@ -1,9 +1,9 @@
 module.exports = {
   someSidebar: {
-    Jaqpot: ['doc1', 'jaqpot'],
-    Deploy:['sklearn', 'xgboost', 'r'],
-    SDK:['.NET', 'JAVA', 'python', 'javascript', 'golang'],
-    Cases: ['spam'],
-    Projects: ['projects']
+    About: ['doc1', 'jaqpot'],
+    'Deploy Your Models':['sklearn', 'xgboost', 'r'],
+    SDK:['.NET', 'JAVA', 'python', 'javascript', 'golang', 'Rsdk'],
+    'Use Cases': ['spam'],
+    'Projects Using Jaqpot': ['projects']
   },
 };

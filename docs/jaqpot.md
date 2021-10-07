@@ -1,6 +1,6 @@
 ---
 id: jaqpot
-title: jaqpot services
+title: Jaqpot Services
 description: How jaqpot works
 keywords:
   - jaqpot

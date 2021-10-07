@@ -83,7 +83,7 @@ jaqpot.get_my_models(minimum=1,maximum=10)
 
 ### Get a model
 
-Use the ```get_model_by_id``` method to get a model by it's ID.
+Use the ```get_model_by_id``` method to get a model by its ID.
 Find more on selecting the appropriate IDs [here](https:#link-to-ids.gr).
 ```python
 model = jaqpot.get_model_by_id("model_id")
