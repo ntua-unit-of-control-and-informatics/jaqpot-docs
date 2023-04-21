@@ -23,19 +23,17 @@ The R Jaqpot client has been developed in order to post, pull and use both model
 
 `devtools::install_github("euclia/jaqpotr")` 
 
-## Usage 
 
-All you need to do is call the desired **jaqpotr** function with the appropriate input arguments. Once the function is executed, a prompt message asks you to select a Jaqpot login method. There are two options, logging in using your Jaqpot credentials (press `1` and hit the `Enter` button) or using an API key (press `2` and hit the `Enter` button). 
 
 ### Logging in using Jaqpot credentials
 
-If you select the first method, a prompt message asks you to provide your Jaqpot username, followed by a pop-up window in which you should fill in your Jaqpot password.
+If you have created a Jaqpot account, you can log into Jaqpot using your Jaqpot credentials with `login.cred()` . Once executed, a prompt message pops up asking for your Jaqpot username, followed by a pop-up window in which you should fill in your Jaqpot password.
 
 ![Log in using Jaqpot credentials](./assets/jaqpotcred.png)
 
 ### Logging in using API key
 
-If you select the second method, a pop-up window appears in which you should fill in your Jaqpot password.  
+If you want to log in using an API key, then use `login.api()`. Once executed, a pop-up window appears in which you should fill in your Jaqpot password.  
 
 ![Log in using Jaqpot credentials](./assets/jaqpotapi.png)
 
@@ -43,6 +41,9 @@ The API key can be downloaded as a text file from the Jaqpot User Interface.
 
 ![Get key](./assets/getkey.png)
 
+## Usage 
+
+Now all you need to do is call the desired **jaqpotr** function with the appropriate input arguments. 
 
 ## Create predictions for your models
 
