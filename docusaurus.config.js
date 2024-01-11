@@ -11,7 +11,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       title: 'Jaqpot',
-      logo: {
+      logo: { 
         alt: 'Jaqpot Logo',
         src: 'img/jaqpot.svg',
       },
