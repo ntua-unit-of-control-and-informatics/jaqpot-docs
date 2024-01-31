@@ -1,3 +1,13 @@
+---
+id: Molecular_descriptors
+title: Molecular
+sidebar_label: Molecular_descriptors
+keywords:
+  - fingerprints
+  - descriptors
+  - featurizer
+---
+
 ## Main Import
 
 `import jaqpotpy.descriptors.molecular`

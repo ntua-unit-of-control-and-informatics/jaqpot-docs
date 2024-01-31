@@ -1,7 +1,8 @@
 module.exports = {
   someSidebar: {
     About: ['doc1', 'jaqpot'],
-    'Descriptors':['Molecular'],
+    'Descriptors':['Molecular_descriptors'],
+    'Datasets':['Molecular_datasets'],
     'Deploy Your Models':['sklearn', 'xgboost', 'r'],
     SDK:['.NET', 'JAVA', 'python', 'javascript', 'golang', 'Rsdk'],
     'Use Cases': ['spam'],
