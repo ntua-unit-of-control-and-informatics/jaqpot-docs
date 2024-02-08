@@ -17,8 +17,8 @@ import jaqpotpy.models.evaluator import Evaluator
 val = Evaluator()
 ```
 
-You can register your own metrics from sklearn and also register a SmilesDataset(see more on Molecular_datasets docs).
-sklearn: https://scikit-learn.org/stable/
+You can register your own metrics from sklearn and also register a SmilesDataset(see more on Molecular_datasets docs).  
+sklearn: **https://scikit-learn.org/stable/**
 
 ```python
 from sklearn.metrics import accuracy_score

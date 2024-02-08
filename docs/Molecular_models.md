@@ -13,8 +13,8 @@ sidebar_label: Molecular_models
 ### MolecularSKLearn
 #### CLASS: MolecularSKLearn(dataset,doa,model,eval=None,preprocess=None)
 
-Class for creating and training a model provided by sklearn model (SVM,Random Forest, ...).
-sklearn: https://scikit-learn.org/stable/
+Class for creating and training a model provided by sklearn model (SVM,Random Forest, ...).  
+sklearn: **https://scikit-learn.org/stable/**
 
 #### Parameters
 
