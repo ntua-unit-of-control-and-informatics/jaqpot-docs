@@ -2,7 +2,7 @@ module.exports = {
   title: 'Jaqpot',
   tagline: 'train. Deploy. Share.',
   url: 'https://www.jaqpot.org',
-  baseUrl: '/',
+  baseUrl: '/jaqpot-docs/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/jaqpot.svg',
