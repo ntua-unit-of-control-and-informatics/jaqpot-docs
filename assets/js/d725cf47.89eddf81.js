@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeuclia_docs=self.webpackChunkeuclia_docs||[]).push([[562],{7203:e=>{e.exports=JSON.parse('{"permalink":"/jaqpot-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

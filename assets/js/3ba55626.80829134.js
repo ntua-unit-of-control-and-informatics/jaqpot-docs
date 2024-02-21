@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeuclia_docs=self.webpackChunkeuclia_docs||[]).push([[135],{1970:l=>{l.exports=JSON.parse('[{"label":"euclia","permalink":"/jaqpot-docs/blog/tags/euclia","count":1},{"label":"hello","permalink":"/jaqpot-docs/blog/tags/hello","count":1}]')}}]);
