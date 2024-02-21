@@ -6,12 +6,13 @@ module.exports = {
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/jaqpot.svg',
-  organizationName: 'euclia', // Usually your GitHub org/user name.
-  projectName: 'euclia-docs', // Usually your repo name.
+  organizationName: 'ntua-unit-of-control-and-informatics', // Usually your GitHub org/user name.
+  projectName: 'jaqpot-docs', // Usually your repo name.
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: 'Jaqpot',
-      logo: { 
+      logo: {
         alt: 'Jaqpot Logo',
         src: 'img/jaqpot.svg',
       },
@@ -61,7 +62,6 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Jaqpot',
               to: 'docs/',
               activeBasePath: 'docs',
               label: 'Docs',
@@ -124,7 +124,7 @@ module.exports = {
 
                   <div style="font-size: x-small">
                     <a href="https://www.ntua.gr" target="_blank" rel="noreferrer noopener">
-                      <img style="width: 22%" src="/img/ntua.jpg" />
+                      <img style="width: 22%" src="/img/ntua.jpg" alt="ntua" />
                     </a>
 
                     <p>Developed at NTUA by 
@@ -145,7 +145,7 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Euclia, Inc.`,
     },
-    
+
   },
   presets: [
     [
